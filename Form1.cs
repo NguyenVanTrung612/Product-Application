@@ -16,5 +16,10 @@ namespace App_Demo
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            int a = 5;
+        }
     }
 }
