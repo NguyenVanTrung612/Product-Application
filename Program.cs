@@ -14,9 +14,8 @@ namespace App_Demo
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Console.Write("hello team");
+            Console.ReadLine();
         }
     }
 }
