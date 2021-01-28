@@ -58,6 +58,20 @@ namespace App_Demo
                         break;
 
 
+                    case 4:
+                        Console.WriteLine("Nhap so nguyen a");
+                        a = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Nhap so nguyen b");
+                        b = Convert.ToInt32(Console.ReadLine());
+                        if (b == 0)
+                        {
+                            Console.WriteLine("Mau so b phai khac 0");
+                            continue;
+                        }
+                        Console.WriteLine($"{a} / {b} = {1.0f * a / b }");
+                        break;
+
+
 
 
                     default:
