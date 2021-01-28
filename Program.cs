@@ -42,60 +42,7 @@ namespace App_Demo
                         break;
 
 
-                    case 2:
-                        Console.WriteLine("Nhap so nguyen a");
-                        a = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Nhap so nguyen b");
-                        b = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine($"{a} - {b} = { a - b }");
-                        break;
-
-
-                    case 3:
-                        Console.WriteLine("Nhap so nguyen a");
-                        a = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Nhap so nguyen b");
-                        b = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine($"{a} * {b} = { a * b }");
-                        break;
-
-
-                    case 4:
-                        Console.WriteLine("Nhap so nguyen a");
-                        a = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Nhap so nguyen b");
-                        b = Convert.ToInt32(Console.ReadLine());
-                        if (b == 0)
-                        {
-                            Console.WriteLine("Mau so b phai khac 0");
-                            continue;
-                        }
-                        Console.WriteLine($"{a} / {b} = {1.0f * a / b }");
-                        break;
-
-
-                    case 5:
-                        Console.WriteLine("Nhap so nguyen a");
-                        a = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Nhap so nguyen b");
-                        b = Convert.ToInt32(Console.ReadLine());
-                        if (b == 0)
-                        {
-                            Console.WriteLine("Mau so b phai khac 0");
-                        }
-                            continue;
-                            Console.WriteLine($"{a} % {b} = { a % b }");
-                        break;
-
-
-                    case 6:
-                        Console.WriteLine("Nhap so nguyen a");
-                        a = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Nhap so nguyen b");
-                        b = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine($"{a} ^ {b} = {Math.Pow(a, b)}");
-                        break;
-
+                   
 
                     default:
                         Console.WriteLine("Nhap cac chuc nang tu 1 den 6!");
