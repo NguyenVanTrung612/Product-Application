@@ -93,9 +93,11 @@ namespace App_Demo
                         Console.WriteLine($"{a} ^ {b} = {Math.Pow(a, b)}");
                         break;
 
+                    default:
+                        Console.WriteLine("Nhap cac chuc nang tu 1 den 6!");
+                        break;
 
-                   
-                        
+
 
                 }
 
