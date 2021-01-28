@@ -12,8 +12,11 @@ namespace App_Demo
         
         static void Main()
         {
-            Console.Write("hello team");
+            //Console.Write("hello team");
+            //Console.ReadLine();
+            Console.Write("hello vst");
             Console.ReadLine();
+
         }
     }
 }
