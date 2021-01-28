@@ -41,8 +41,14 @@ namespace App_Demo
                         Console.WriteLine($"{a} + {b} = { a + b }");
                         break;
 
+                    case 2:
+                        Console.WriteLine("Nhap so nguyen a");
+                        a = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Nhap so nguyen b");
+                        b = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine($"{a} - {b} = { a - b }");
+                        break;
 
-                   
 
                     default:
                         Console.WriteLine("Nhap cac chuc nang tu 1 den 6!");
