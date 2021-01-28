@@ -94,10 +94,8 @@ namespace App_Demo
                         break;
 
 
-                    default:
-                        Console.WriteLine("Nhap cac chuc nang tu 1 den 6!");
-                        break;
-                        break;
+                   
+                        
 
                 }
 
