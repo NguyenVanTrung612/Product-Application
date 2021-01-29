@@ -1,3 +1,4 @@
 obj
 *bin/
 *.resx
+.vs/App-Demo/v16/.suo
